@@ -18,7 +18,7 @@ class queue:
     def peek(self):
         if self.items:
             return self.items[-1]
-        """return but do not remove the next item to be removed
+        """return  do not remove the next item to be removed
         """
 
     def size(self):
